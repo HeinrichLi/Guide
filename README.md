@@ -1,4 +1,5 @@
 # Guide
+https://github.com/HeinrichLi/SpringCloud-Learning
 ## Spring Cloud 
 ### Hystrix
 * How to use: https://github.com/Netflix/Hystrix/wiki/How-To-Use
