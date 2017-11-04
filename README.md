@@ -4,6 +4,14 @@ https://github.com/HeinrichLi/SpringCloud-Learning
 ### Hystrix
 * How to use: https://github.com/Netflix/Hystrix/wiki/How-To-Use
 * Document https://github.com/Netflix/Hystrix
+* 解决Feign/Ribbon第一次请求失败的问题？</br>
+Hystrix默认的超时时间是1秒，如果超过这个时间尚未响应，将会进入fallback代码。而首次请求往往会比较慢（因为Spring的懒加载机制，要实例化一些类），这个响应时间可能就大于1秒了。知道原因后，我们来总结一下解决放你。解决方案有三种，以feign为例
+  * hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
+该配置是让Hystrix的超时时间改为5秒
+  * hystrix.command.default.execution.timeout.enabled: false
+该配置，用于禁用Hystrix的超时时间
+  * feign.hystrix.enabled: false
+该配置，用于索性禁用feign的hystrix。该做法除非一些特殊场景，不推荐使用。 
 
 ### Zuul
 https://github.com/Netflix/zuul
