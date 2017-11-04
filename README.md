@@ -13,4 +13,7 @@ https://github.com/Netflix/ribbon
 ### Turbin
 https://github.com/Netflix/Turbine
 
+### Feign
+https://github.com/OpenFeign/feign
+
 
