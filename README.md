@@ -27,6 +27,8 @@ https://github.com/Netflix/Turbine
 
 ### Feign
 https://github.com/OpenFeign/feign
+* http://www.jianshu.com/p/b9af028efebb 
+* http://blog.didispace.com/cxy-wsm-zml-8/ 
 
 ### RestTemplate
 * https://www.programcreek.com/java-api-examples/index.php?class=org.springframework.web.client.RestTemplate&method=postForEntity
