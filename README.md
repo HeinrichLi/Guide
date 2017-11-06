@@ -14,7 +14,7 @@ Hystrix默认的超时时间是1秒，如果超过这个时间尚未响应，将
 该配置，用于索性禁用feign的hystrix。该做法除非一些特殊场景，不推荐使用。
   * https://github.com/Netflix/Hystrix/tree/master/hystrix-contrib/hystrix-javanica#configuration
   * https://www.programcreek.com/java-api-examples/index.php?api=com.netflix.hystrix.exception.HystrixRuntimeException
-  
+  * http://www.jianshu.com/p/b9af028efebb
 
 ### Zuul
 https://github.com/Netflix/zuul
