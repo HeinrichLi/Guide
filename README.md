@@ -13,6 +13,7 @@ Hystrix默认的超时时间是1秒，如果超过这个时间尚未响应，将
   * feign.hystrix.enabled: false
 该配置，用于索性禁用feign的hystrix。该做法除非一些特殊场景，不推荐使用。
   * https://github.com/Netflix/Hystrix/tree/master/hystrix-contrib/hystrix-javanica#configuration
+  * https://www.programcreek.com/java-api-examples/index.php?api=com.netflix.hystrix.exception.HystrixRuntimeException
   
 
 ### Zuul
@@ -26,5 +27,9 @@ https://github.com/Netflix/Turbine
 
 ### Feign
 https://github.com/OpenFeign/feign
+
+### RestTemplate
+* https://www.programcreek.com/java-api-examples/index.php?class=org.springframework.web.client.RestTemplate&method=postForEntity
+* https://www.concretepage.com/spring/spring-mvc/spring-rest-client-resttemplate-consume-restful-web-service-example-xml-json
 
 
