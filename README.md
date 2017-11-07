@@ -86,6 +86,7 @@ toObservable() - 一旦Observable被订阅，懒惰地开始执行命令。
 注意：默认情况下使用EAGER模式
 **refer to:http://blog.csdn.net/xiaojia1100/article/details/65631778**
 ![Alt text](/picture/hystrix-configuration.png "Optional title")
+* http://hot66hot.iteye.com/blog/2155036
 
 
 ### Zuul
