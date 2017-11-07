@@ -15,6 +15,7 @@ Hystrix默认的超时时间是1秒，如果超过这个时间尚未响应，将
   * https://github.com/Netflix/Hystrix/tree/master/hystrix-contrib/hystrix-javanica#configuration
   * https://www.programcreek.com/java-api-examples/index.php?api=com.netflix.hystrix.exception.HystrixRuntimeException
   * http://www.jianshu.com/p/b9af028efebb
+  * http://hot66hot.iteye.com/blog/2155036
 
 ### Zuul
 https://github.com/Netflix/zuul
